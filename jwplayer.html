@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <script type="text/javascript" src="./lib/jwplayer-7.2.4/jwplayer.js"></script>
+        <script type="text/javascript">jwplayer.key="Mp9kNGvefRQR+v+cNaQK1Ub6wQgxlwySEXBybA==";</script>
+    </head>
+    <body>
+    <div id='myElement'>Loading the player ...</div>
+    <script type='text/javascript'>
+        var playerInstance = jwplayer('myElement');
+        playerInstance.setup({ 
+            file: 'rtmp://example.com/application/mp4:myVideo.mp4', 
+            image: 'img/logo_oufslan.png'
+        });
+    </script>
+    
+    </body>
+</html>

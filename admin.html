@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- css -->
+        <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/admin.css">
+        <link rel="stylesheet" href="lib/bootstrap-switch/css/bootstrap3/bootstrap-switch.min.css">
+        <!-- js -->
+        <script src="js/require-setup.js"></script>
+        <script src="lib/require/require.js"></script>
+        <script src="js/video.js"></script>
+        <script src="js/admin.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <ul class="nav nav-tabs" role="tablist" id="tabs">
+                <li role="presentation" data-id="1" class="active"><a href="#accueil" aria-controls="accueil" role="tab" data-toggle="tab">Accueil</a></li>
+            </ul>
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="1">
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <span>Titre de la page</span>
+                            <div class="right">
+                                <label for="titre-display">Afficher </label>
+                                <input type="checkbox" class ="chk" id="titre-display" name="titre">
+                            </div>
+                            <div id="titre-div">
+                                <textarea class="form-control" rows="5" id="titre-value" name="titre-value"></textarea>
+                                <div class="btn-group btn-group-sm" role="group" aria-label="...">
+                                    <button type="button" class="btn btn-default">Valider</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <span>Message</span>
+                            <div class="right">
+                                <label for="msg-display">Afficher </label> 
+                                <input type="checkbox" class ="chk" id="msg-display" name="msg-display">
+                            </div>
+                            <div id="msg-div">
+                                <textarea class="form-control" rows="5" id="msg-value" name="msg-value"></textarea>
+                                <div class="btn-group btn-group-sm" role="group" aria-label="...">
+                                    <button type="button" class="btn btn-default">Valider</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            </span>état du réseau</span>
+                            <div class="right">
+                                <label for="reseau-display">Afficher </label>
+                                <input type="checkbox" id="reseau-display" name="reseau-display" class ="chk">
+                                <label for="reseau-value">valeur </label>
+                                <input type="checkbox" id="reseau-value"   name="reseau-value"   class ="chk">
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <span>insciptions ouvertes</span>
+                            <div class="right">
+                                <label for="inscription-display">Afficher </label>
+                                <input type="checkbox" id="inscription-display" name="inscription-display" class ="chk">
+                                <label for="inscription-value">valeur </label>
+                                <input type="checkbox" id="inscription-value"   name="inscription-value"   class ="chk">
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <span>Tournois</span>
+                            <div class="right">
+                                <label for="tournoi-display">Afficher </label>
+                                <input type="checkbox" id="tournoi-display" name="tournoi-display" class ="chk">
+                            </div>
+                            <div id="tournoi-div">
+                                <div class="btn-group" role="group" aria-label="..." style="padding-bottom: 2px;">
+                                    <button type="button" class="btn btn-sm" id="retourC">retour ligne</button>
+                                    <button type="button" class="btn btn-sm" id="gras">gras</button>
+                                    <button type="button" class="btn btn-sm" id="souligne">souligné</button>
+                                </div>
+                                <textarea class="form-control" rows="5" id="tournoi-value" name="tournoi-value"></textarea>
+                                <div class="btn-group btn-group-sm" role="group" aria-label="...">
+                                    <button type="button" class="btn btn-default">Valider</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <span>Streaming</span>
+                            <div class="right">
+                                <label for="stream-display">Afficher </label>
+                                <input type="checkbox" id="stream-display" name="stream-display" class ="chk">
+                            </div>
+                            <div id="stream-div">
+                                <form class="form-inline" style="width: 100%;">
+                                    <label for="stream-value">url</label>
+                                    <textarea class="form-control" style="width: 80%;" rows="1" id="stream-value" name="stream-value"></textarea>
+                                    
+                                    <div class="btn-group btn-group-sm" role="group" aria-label="...">
+                                        <button type="button" class="btn btn-default">Valider</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </li>
+                        
+                    </ul>
+                </div>
+     
+            </div>
+        </div>
+    </body>
+</html>

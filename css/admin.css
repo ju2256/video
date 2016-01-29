@@ -1,0 +1,61 @@
+.lan{
+    display: none;   
+}
+.fin{
+    display: none;   
+}
+
+.chk{
+    position: fixed;
+    right: 2px;
+}
+input[type="textarea"]{
+    display: none;   
+}
+.bootstrap-switch{
+    
+}
+body{
+    padding-top: 10px;
+}
+.closed{
+    display: none;   
+}
+.tab-content{
+    padding-top: 2px;   
+}
+/* display */
+.video{
+    display: inline-block;
+    min-width: 200px;
+    height: auto;
+    border: solid 1px grey;
+    margin: 2px;
+    padding: 5px;
+    font-family:  sans-serif;
+}
+video-box{
+    text-align: center;
+    font-size: 30px;
+    background-color: #000000;
+    color: #ffffff;
+    border-bottom: solid 1px #ffffff;
+}
+
+.right{
+    float: right;   
+}
+#titre-display{
+    display: block;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#msg-display{
+    display: block;
+    font-size: 32px;
+    font-weight: bold;
+    vertical-align: middle;
+}
